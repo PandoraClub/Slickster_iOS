@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CalendarSwitcherView" customModule="Slickster" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b4p-sb-Yun">
+                    <rect key="frame" x="0.0" y="0.0" width="384" height="40"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calendar Name" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1PP-42-1tD">
+                            <rect key="frame" x="8" y="4" width="100" height="17"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.7843137255" green="0.7843137255" blue="0.7843137255" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rsj-qf-QjD">
+                            <rect key="frame" x="327" y="4" width="51" height="31"/>
+                            <animations/>
+                            <color key="onTintColor" red="0.0" green="0.73333333329999995" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="toggleSwitch:" destination="iN0-l3-epB" eventType="valueChanged" id="fdl-JR-urq"/>
+                            </connections>
+                        </switch>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calendar Name" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCj-5D-mKS">
+                            <rect key="frame" x="8" y="21" width="303" height="15"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <constraints>
+                        <constraint firstItem="1PP-42-1tD" firstAttribute="centerY" secondItem="b4p-sb-Yun" secondAttribute="centerY" constant="-7.5" id="82e-pD-sS1"/>
+                        <constraint firstAttribute="width" constant="384" id="L1i-UQ-QAJ"/>
+                        <constraint firstAttribute="trailing" secondItem="rsj-qf-QjD" secondAttribute="trailing" constant="8" id="TD2-8I-lSl"/>
+                        <constraint firstItem="QCj-5D-mKS" firstAttribute="top" secondItem="b4p-sb-Yun" secondAttribute="top" constant="21" id="cP0-M7-CaO"/>
+                        <constraint firstAttribute="height" constant="40" id="eSo-gk-hcT"/>
+                        <constraint firstItem="1PP-42-1tD" firstAttribute="leading" secondItem="b4p-sb-Yun" secondAttribute="leading" constant="8" id="jKd-oa-lRd"/>
+                        <constraint firstItem="rsj-qf-QjD" firstAttribute="centerY" secondItem="b4p-sb-Yun" secondAttribute="centerY" id="k8n-Op-Jhu"/>
+                        <constraint firstItem="rsj-qf-QjD" firstAttribute="leading" secondItem="QCj-5D-mKS" secondAttribute="trailing" constant="16" id="mp9-IP-mn6"/>
+                        <constraint firstItem="QCj-5D-mKS" firstAttribute="leading" secondItem="b4p-sb-Yun" secondAttribute="leading" constant="8" id="nnd-mk-Xda"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <constraints>
+                <constraint firstItem="b4p-sb-Yun" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="69g-jW-HgY"/>
+                <constraint firstItem="b4p-sb-Yun" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eJS-cu-5yq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="calendarNameLabel" destination="1PP-42-1tD" id="rDm-LY-xcd"/>
+                <outlet property="calendarSubNameLabel" destination="QCj-5D-mKS" id="gpJ-Kb-DQ6"/>
+                <outlet property="calendarSwitch" destination="rsj-qf-QjD" id="NBs-zD-bEg"/>
+                <outlet property="heightConstraint" destination="eSo-gk-hcT" id="NCk-cS-J5M"/>
+                <outlet property="widthConstraint" destination="L1i-UQ-QAJ" id="ZUU-KZ-8iP"/>
+            </connections>
+            <point key="canvasLocation" x="334" y="31"/>
+        </view>
+    </objects>
+</document>

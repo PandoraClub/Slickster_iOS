@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="big_noodle_titling_oblique.ttf">
+            <string>BigNoodleTitling-Oblique</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InterestsSelectionViewController" customModule="Slickster" customModuleProvider="target">
+            <connections>
+                <outlet property="searchBar" destination="r8t-I1-jRK" id="ncC-PD-keq"/>
+                <outlet property="tableView" destination="JPf-Cn-l1W" id="Vbc-tm-6j7"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bLl-4H-DOg">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="97P-MU-7et">
+                            <rect key="frame" x="15" y="38" width="30" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="2tw-x5-7xZ"/>
+                                <constraint firstAttribute="height" constant="24" id="AKC-oa-OCf"/>
+                            </constraints>
+                            <state key="normal" image="back-button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backButtonActivated:" destination="-1" eventType="touchUpInside" id="sDT-ap-PIX"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Interests" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PV-sA-fuL">
+                            <rect key="frame" x="63" y="19" width="473" height="62"/>
+                            <fontDescription key="fontDescription" name="BigNoodleTitling-Oblique" family="BigNoodleTitling" pointSize="30"/>
+                            <color key="textColor" red="0.90676817600000004" green="0.90676817600000004" blue="0.90676817600000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4D-hs-eCu">
+                            <rect key="frame" x="539" y="38" width="46" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="HTo-fr-PEH"/>
+                                <constraint firstAttribute="width" constant="46" id="yaZ-6L-WsY"/>
+                            </constraints>
+                            <state key="normal" title="Save">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="saveButtonActivated:" destination="-1" eventType="touchUpInside" id="9np-AU-rwd"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="S4D-hs-eCu" secondAttribute="trailing" constant="15" id="1dC-SU-DsW"/>
+                        <constraint firstAttribute="centerY" secondItem="3PV-sA-fuL" secondAttribute="centerY" constant="-10" id="8pZ-4h-e0C"/>
+                        <constraint firstItem="3PV-sA-fuL" firstAttribute="leading" secondItem="97P-MU-7et" secondAttribute="trailing" constant="18" id="99o-r0-lEu"/>
+                        <constraint firstAttribute="trailing" secondItem="3PV-sA-fuL" secondAttribute="trailing" constant="64" id="Gml-hN-DbK"/>
+                        <constraint firstItem="S4D-hs-eCu" firstAttribute="top" secondItem="bLl-4H-DOg" secondAttribute="top" constant="38" id="MTd-xw-53q"/>
+                        <constraint firstAttribute="height" constant="80" id="NCf-oU-3Ix"/>
+                        <constraint firstAttribute="centerY" secondItem="97P-MU-7et" secondAttribute="centerY" constant="-10" id="ZnY-qK-hUi"/>
+                        <constraint firstItem="3PV-sA-fuL" firstAttribute="leading" secondItem="97P-MU-7et" secondAttribute="trailing" constant="18" id="gxs-BZ-PTg"/>
+                        <constraint firstItem="3PV-sA-fuL" firstAttribute="top" secondItem="bLl-4H-DOg" secondAttribute="top" constant="19" id="hxY-qe-uP4"/>
+                        <constraint firstItem="97P-MU-7et" firstAttribute="leading" secondItem="bLl-4H-DOg" secondAttribute="leading" constant="15" id="ks4-dG-MGc"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="sMy-3N-IKe"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JPf-Cn-l1W">
+                    <rect key="frame" x="0.0" y="124" width="600" height="476"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+                <searchBar contentMode="redraw" barStyle="black" placeholder="Type To Search" translatesAutoresizingMaskIntoConstraints="NO" id="r8t-I1-jRK">
+                    <rect key="frame" x="0.0" y="80" width="600" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="3sr-yS-fok"/>
+                        <constraint firstAttribute="height" constant="44" id="cXz-1i-b4i"/>
+                    </constraints>
+                    <textInputTraits key="textInputTraits"/>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="bLl-4H-DOg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="8Jw-ff-daM"/>
+                <constraint firstAttribute="bottom" secondItem="JPf-Cn-l1W" secondAttribute="bottom" id="E5q-cE-b61"/>
+                <constraint firstItem="r8t-I1-jRK" firstAttribute="top" secondItem="bLl-4H-DOg" secondAttribute="bottom" id="G7i-yk-XHj"/>
+                <constraint firstItem="bLl-4H-DOg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="GHP-2r-nDi"/>
+                <constraint firstAttribute="trailing" secondItem="JPf-Cn-l1W" secondAttribute="trailing" id="O3g-Lq-gu8"/>
+                <constraint firstAttribute="trailing" secondItem="r8t-I1-jRK" secondAttribute="trailing" id="W2R-2Y-udq"/>
+                <constraint firstItem="JPf-Cn-l1W" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fzd-7D-fvy"/>
+                <constraint firstAttribute="trailing" secondItem="bLl-4H-DOg" secondAttribute="trailing" id="vB1-Mf-Dgi"/>
+                <constraint firstItem="JPf-Cn-l1W" firstAttribute="top" secondItem="r8t-I1-jRK" secondAttribute="bottom" id="xJS-eY-1J8"/>
+                <constraint firstItem="r8t-I1-jRK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yPd-gt-jY1"/>
+            </constraints>
+            <point key="canvasLocation" x="346" y="343"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-button.png" width="94" height="60"/>
+    </resources>
+</document>

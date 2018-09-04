@@ -1,0 +1,870 @@
+[
+ {
+ "id": "103",
+ "name": "Music",
+ "name_localized": "Music",
+ "short_name": "Music",
+ "short_name_localized": "Music",
+ "subcategories": [
+                   {
+                   "id": "3001",
+                   "name": "Alternative"
+                   },
+                   {
+                   "id": "3002",
+                   "name": "Blues & Jazz"
+                   },
+                   {
+                   "id": "3003",
+                   "name": "Classical"
+                   },
+                   {
+                   "id": "3004",
+                   "name": "Country"
+                   },
+                   {
+                   "id": "3005",
+                   "name": "Cultural"
+                   },
+                   {
+                   "id": "3006",
+                   "name": "EDM / Electronic"
+                   },
+                   {
+                   "id": "3007",
+                   "name": "Folk"
+                   },
+                   {
+                   "id": "3008",
+                   "name": "Hip Hop / Rap"
+                   },
+                   {
+                   "id": "3009",
+                   "name": "Indie"
+                   },
+                   {
+                   "id": "3010",
+                   "name": "Latin"
+                   },
+                   {
+                   "id": "3011",
+                   "name": "Metal"
+                   },
+                   {
+                   "id": "3012",
+                   "name": "Opera"
+                   },
+                   {
+                   "id": "3013",
+                   "name": "Pop"
+                   },
+                   {
+                   "id": "3014",
+                   "name": "R&B"
+                   },
+                   {
+                   "id": "3015",
+                   "name": "Reggae"
+                   },
+                   {
+                   "id": "3016",
+                   "name": "Religious/Spiritual"
+                   }, 
+                   {
+                   "id": "3017",
+                   "name": "Rock"
+                   }, 
+                   {
+                   "id": "3018",
+                   "name": "Top 40"
+                   }, 
+                   {
+                   "id": "3999", 
+                   "name": "Other"
+                   }
+                   ]
+ },
+ {
+ "id": "101",
+ "name": "Business & Professional",
+ "name_localized": "Business & Professional",
+ "short_name": "Business",
+ "short_name_localized": "Business",
+ "subcategories": [
+                   {
+                   "id": "1001",
+                   "name": "Startups & Small Business"
+                   },
+                   {
+                   "id": "1002",
+                   "name": "Finance"
+                   },
+                   {
+                   "id": "1003",
+                   "name": "Environment & Sustainability"
+                   },
+                   {
+                   "id": "1004",
+                   "name": "Educators"
+                   },
+                   {
+                   "id": "1005",
+                   "name": "Real Estate"
+                   },
+                   {
+                   "id": "1006",
+                   "name": "Non Profit & NGOs"
+                   },
+                   {
+                   "id": "1007",
+                   "name": "Sales & Marketing"
+                   },
+                   {
+                   "id": "1008",
+                   "name": "Media"
+                   },
+                   {
+                   "id": "1009",
+                   "name": "Design"
+                   }, 
+                   {
+                   "id": "1010",
+                   "name": "Career"
+                   }, 
+                   {
+                   "id": "1999",
+                   "name": "Other"
+                   }
+                   ]
+ },
+ {
+ "id": "110",
+ "name": "Food & Drink",
+ "name_localized": "Food & Drink",
+ "short_name": "Food & Drink",
+ "short_name_localized": "Food & Drink",
+ "subcategories": [
+                   {
+                   "id": "10001",
+                   "name": "Beer"
+                   },
+                   {
+                   "id": "10002",
+                   "name": "Wine"
+                   },
+                   {
+                   "id": "10003",
+                   "name": "Food"
+                   },
+                   {
+                   "id": "10004",
+                   "name": "Spirits"
+                   },
+                   {
+                   "id": "10999",
+                   "name": "Other"
+                   }
+                   ]
+ 
+ },
+ {
+ "id": "113",
+ "name": "Community & Culture",
+ "name_localized": "Community & Culture",
+ "short_name": "Community",
+ "short_name_localized": "Community",
+ "subcategories": [
+                   {
+                   "id": "13001",
+                   "name": "State"
+                   },
+                   {
+                   "id": "13002",
+                   "name": "County"
+                   },
+                   {
+                   "id": "13003",
+                   "name": "City/Town"
+                   },
+                   {
+                   "id": "13004",
+                   "name": "LGBT"
+                   },
+                   {
+                   "id": "13005",
+                   "name": "Medieval"
+                   },
+                   {
+                   "id": "13006",
+                   "name": "Renaissance"
+                   },
+                   {
+                   "id": "13007",
+                   "name": "Heritage"
+                   },
+                   {
+                   "id": "13008",
+                   "name": "Nationality"
+                   },
+                   {
+                   "id": "13009",
+                   "name": "Language"
+                   }, 
+                   {
+                   "id": "13999",
+                   "name": "Other"
+                   }
+                   ]
+ },
+ {
+ "id": "105",
+ "name": "Performing & Visual Arts",
+ "name_localized": "Performing & Visual Arts",
+ "short_name": "Arts",
+ "short_name_localized": "Arts",
+ "subcategories": [
+                   {
+                   "id": "5001",
+                   "name": "Theatre"
+                   },
+                   {
+                   "id": "5002",
+                   "name": "Musical"
+                   },
+                   {
+                   "id": "5003",
+                   "name": "Ballet"
+                   },
+                   {
+                   "id": "5004",
+                   "name": "Dance"
+                   },
+                   {
+                   "id": "5005",
+                   "name": "Opera"
+                   },
+                   {
+                   "id": "5006",
+                   "name": "Orchestra"
+                   },
+                   {
+                   "id": "5007",
+                   "name": "Craft"
+                   },
+                   {
+                   "id": "5008",
+                   "name": "Fine Art"
+                   },
+                   {
+                   "id": "5009",
+                   "name": "Literary Arts"
+                   }, 
+                   {
+                   "id": "5010",
+                   "name": "Comedy"
+                   }, 
+                   {
+                   "id": "5999",
+                   "name": "Other"
+                   }
+                   ]
+ },
+ {
+ "id": "104",
+ "name": "Film, Media & Entertainment",
+ "name_localized": "Film, Media & Entertainment",
+ "short_name": "Film & Media",
+ "short_name_localized": "Film & Media",
+                   "subcategories": [
+                                     {
+                                     "id": "4001",
+                                     "name": "TV"
+                                     },
+                                     {
+                                     "id": "4002",
+                                     "name": "Film"
+                                     },
+                                     {
+                                     "id": "4003",
+                                     "name": "Anime"
+                                     },
+                                     {
+                                     "id": "4004",
+                                     "name": "Gaming"
+                                     },
+                                     {
+                                     "id": "4005",
+                                     "name": "Comics"
+                                     }, 
+                                     {
+                                     "id": "4006",
+                                     "name": "Adult"
+                                     }, 
+                                     {
+                                     "id": "4007",
+                                     "name": "Comedy"
+                                     }, 
+                                     {
+                                     "id": "4999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "108",
+ "name": "Sports & Fitness",
+ "name_localized": "Sports & Fitness",
+ "short_name": "Sports & Fitness",
+ "short_name_localized": "Sports & Fitness",
+                   "subcategories": [
+                                     {
+                                     "id": "8001",
+                                     "name": "Running"
+                                     },
+                                     {
+                                     "id": "8002",
+                                     "name": "Walking"
+                                     },
+                                     {
+                                     "id": "8003",
+                                     "name": "Cycling"
+                                     },
+                                     {
+                                     "id": "8004",
+                                     "name": "Mountain Biking"
+                                     },
+                                     {
+                                     "id": "8005",
+                                     "name": "Obstacles"
+                                     },
+                                     {
+                                     "id": "8006",
+                                     "name": "Basketball"
+                                     },
+                                     {
+                                     "id": "8007",
+                                     "name": "Football"
+                                     },
+                                     {
+                                     "id": "8008",
+                                     "name": "Baseball"
+                                     },
+                                     {
+                                     "id": "8009",
+                                     "name": "Soccer"
+                                     },
+                                     {
+                                     "id": "8010",
+                                     "name": "Golf"
+                                     },
+                                     {
+                                     "id": "8011",
+                                     "name": "Volleyball"
+                                     },
+                                     {
+                                     "id": "8012",
+                                     "name": "Tennis"
+                                     }, 
+                                     {
+                                     "id": "8013",
+                                     "name": "Swimming & Water Sports"
+                                     }, 
+                                     {
+                                     "id": "8014",
+                                     "name": "Hockey"
+                                     }, 
+                                     {
+                                     "id": "8015",
+                                     "name": "Motorsports"
+                                     }, 
+                                     {
+                                     "id": "8016",
+                                     "name": "Fighting & Martial Arts"
+                                     }, 
+                                     {
+                                     "id": "8017",
+                                     "name": "Snow Sports"
+                                     }, 
+                                     {
+                                     "id": "8018",
+                                     "name": "Rugby"
+                                     }, 
+                                     {
+                                     "id": "8019",
+                                     "name": "Yoga"
+                                     }, 
+                                     {
+                                     "id": "8020",
+                                     "name": "Exercise"
+                                     }, 
+                                     {
+                                     "id": "8999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "107",
+ "name": "Health & Wellness",
+ "name_localized": "Health & Wellness",
+ "short_name": "Health",
+ "short_name_localized": "Health",
+                   "subcategories": [
+                                     {
+                                     "id": "7001",
+                                     "name": "Personal health"
+                                     },
+                                     {
+                                     "id": "7002",
+                                     "name": "Mental health"
+                                     },
+                                     {
+                                     "id": "7003",
+                                     "name": "Medical"
+                                     },
+                                     {
+                                     "id": "7004",
+                                     "name": "Spa"
+                                     }, 
+                                     {
+                                     "id": "7005",
+                                     "name": "Yoga"
+                                     }, 
+                                     {
+                                     "id": "7999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "102",
+ "name": "Science & Technology",
+ "name_localized": "Science & Technology",
+ "short_name": "Science & Tech",
+ "short_name_localized": "Science & Tech",
+                   "subcategories": [
+                                     {
+                                     "id": "2001",
+                                     "name": "Medicine"
+                                     },
+                                     {
+                                     "id": "2002",
+                                     "name": "Science"
+                                     },
+                                     {
+                                     "id": "2003",
+                                     "name": "Biotech"
+                                     },
+                                     {
+                                     "id": "2004",
+                                     "name": "High Tech"
+                                     },
+                                     {
+                                     "id": "2005",
+                                     "name": "Mobile"
+                                     }, 
+                                     {
+                                     "id": "2006",
+                                     "name": "Social Media"
+                                     }, 
+                                     {
+                                     "id": "2007",
+                                     "name": "Robotics"
+                                     }, 
+                                     {
+                                     "id": "2999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "109",
+ "name": "Travel & Outdoor",
+ "name_localized": "Travel & Outdoor",
+ "short_name": "Travel & Outdoor",
+ "short_name_localized": "Travel & Outdoor",
+                   "subcategories": [
+                                     {
+                                     "id": "9001",
+                                     "name": "Hiking"
+                                     },
+                                     {
+                                     "id": "9002",
+                                     "name": "Rafting"
+                                     },
+                                     {
+                                     "id": "9003",
+                                     "name": "Kayaking"
+                                     },
+                                     {
+                                     "id": "9004",
+                                     "name": "Canoeing"
+                                     },
+                                     {
+                                     "id": "9005",
+                                     "name": "Climbing"
+                                     }, 
+                                     {
+                                     "id": "9006",
+                                     "name": "Travel"
+                                     }, 
+                                     {
+                                     "id": "9999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "111",
+ "name": "Charity & Causes",
+ "name_localized": "Charity & Causes",
+ "short_name": "Charity & Causes",
+ "short_name_localized": "Charity & Causes",
+                   "subcategories": [
+                                     {
+                                     "id": "11001",
+                                     "name": "Animal Welfare"
+                                     },
+                                     {
+                                     "id": "11002",
+                                     "name": "Environment"
+                                     },
+                                     {
+                                     "id": "11003",
+                                     "name": "Healthcare"
+                                     },
+                                     {
+                                     "id": "11004",
+                                     "name": "Human Rights"
+                                     },
+                                     {
+                                     "id": "11005",
+                                     "name": "International Aid"
+                                     },
+                                     {
+                                     "id": "11006",
+                                     "name": "Poverty"
+                                     }, 
+                                     {
+                                     "id": "11007",
+                                     "name": "Disaster Relief"
+                                     }, 
+                                     {
+                                     "id": "11008",
+                                     "name": "Education"
+                                     }, 
+                                     {
+                                     "id": "11999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "114",
+ "name": "Religion & Spirituality",
+ "name_localized": "Religion & Spirituality",
+ "short_name": "Spirituality",
+ "short_name_localized": "Spirituality",
+                   "subcategories": [
+                                     {
+                                     "id": "14001",
+                                     "name": "Christianity"
+                                     },
+                                     {
+                                     "id": "14002",
+                                     "name": "Judaism"
+                                     },
+                                     {
+                                     "id": "14003",
+                                     "name": "Islam"
+                                     },
+                                     {
+                                     "id": "14004",
+                                     "name": "Mormonism"
+                                     },
+                                     {
+                                     "id": "14005",
+                                     "name": "Buddhism"
+                                     },
+                                     {
+                                     "id": "14006",
+                                     "name": "Sikhism"
+                                     }, 
+                                     {
+                                     "id": "14007",
+                                     "name": "Eastern Religion"
+                                     }, 
+                                     {
+                                     "id": "14008",
+                                     "name": "Mysticism and Occult"
+                                     }, 
+                                     {
+                                     "id": "14009",
+                                     "name": "New Age"
+                                     }, 
+                                     {
+                                     "id": "14099",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "115",
+ "name": "Family & Education",
+ "name_localized": "Family & Education",
+ "short_name": "Family & Education",
+ "short_name_localized": "Family & Education",
+                   "subcategories": [
+                                     {
+                                     "id": "15001",
+                                     "name": "Education"
+                                     },
+                                     {
+                                     "id": "15002",
+                                     "name": "Alumni"
+                                     },
+                                     {
+                                     "id": "15003",
+                                     "name": "Parenting"
+                                     },
+                                     {
+                                     "id": "15004",
+                                     "name": "Baby"
+                                     },
+                                     {
+                                     "id": "15005",
+                                     "name": "Children & Youth "
+                                     }, 
+                                     {
+                                     "id": "15006",
+                                     "name": "Parents Association"
+                                     }, 
+                                     {
+                                     "id": "15007",
+                                     "name": "Reunion"
+                                     }, 
+                                     {
+                                     "id": "15999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "116",
+ "name": "Seasonal & Holiday",
+ "name_localized": "Seasonal & Holiday",
+ "short_name": "Holiday",
+ "short_name_localized": "Holiday",
+                   "subcategories": [
+                                     {
+                                     "id": "16001",
+                                     "name": "St Patricks Day"
+                                     },
+                                     {
+                                     "id": "16002",
+                                     "name": "Easter"
+                                     },
+                                     {
+                                     "id": "16003",
+                                     "name": "Independence Day"
+                                     },
+                                     {
+                                     "id": "16004",
+                                     "name": "Halloween/Haunt"
+                                     },
+                                     {
+                                     "id": "16005",
+                                     "name": "Thanksgiving"
+                                     },
+                                     {
+                                     "id": "16006",
+                                     "name": "Christmas"
+                                     }, 
+                                     {
+                                     "id": "16007",
+                                     "name": "Channukah"
+                                     }, 
+                                     {
+                                     "id": "16008",
+                                     "name": "Fall events"
+                                     }, 
+                                     {
+                                     "id": "16009",
+                                     "name": "New Years Eve"
+                                     }, 
+                                     {
+                                     "id": "16999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "112",
+ "name": "Government & Politics",
+ "name_localized": "Government & Politics",
+ "short_name": "Government",
+ "short_name_localized": "Government",
+                   "subcategories": [
+                                     {
+                                     "id": "12001",
+                                     "name": "Republican Party"
+                                     },
+                                     {
+                                     "id": "12002",
+                                     "name": "Democratic Party"
+                                     },
+                                     {
+                                     "id": "12003",
+                                     "name": "Other Party"
+                                     },
+                                     {
+                                     "id": "12004",
+                                     "name": "Non-partisan"
+                                     },
+                                     {
+                                     "id": "12005",
+                                     "name": "Federal Government"
+                                     }, 
+                                     {
+                                     "id": "12006",
+                                     "name": "State Government"
+                                     }, 
+                                     {
+                                     "id": "12007",
+                                     "name": "County/Municipal Government "
+                                     }, 
+                                     {
+                                     "id": "12999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "106",
+ "name": "Fashion & Beauty",
+ "name_localized": "Fashion & Beauty",
+ "short_name": "Fashion",
+ "short_name_localized": "Fashion",
+                   "subcategories": [
+                                     {
+                                     "id": "6001",
+                                     "name": "Fashion"
+                                     },
+                                     {
+                                     "id": "6002",
+                                     "name": "Accessories"
+                                     },
+                                     {
+                                     "id": "6003",
+                                     "name": "Bridal"
+                                     }, 
+                                     {
+                                     "id": "6004",
+                                     "name": "Beauty"
+                                     }, 
+                                     {
+                                     "id": "6999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "117",
+ "name": "Home & Lifestyle",
+ "name_localized": "Home & Lifestyle",
+ "short_name": "Home & Lifestyle",
+ "short_name_localized": "Home & Lifestyle",
+                   "subcategories": [
+                                     {
+                                     "id": "17001",
+                                     "name": "Dating"
+                                     },
+                                     {
+                                     "id": "17002",
+                                     "name": "Pets & Animals"
+                                     },
+                                     {
+                                     "id": "17003",
+                                     "name": "Home & Garden"
+                                     }, 
+                                     {
+                                     "id": "17999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "118",
+ "name": "Auto, Boat & Air",
+ "name_localized": "Auto, Boat & Air",
+ "short_name": "Auto, Boat & Air",
+ "short_name_localized": "Auto, Boat & Air",
+                   "subcategories": [
+                                     {
+                                     "id": "18001",
+                                     "name": "Auto"
+                                     },
+                                     {
+                                     "id": "18002",
+                                     "name": "Motorcycle/ATV"
+                                     },
+                                     {
+                                     "id": "18003",
+                                     "name": "Boat"
+                                     }, 
+                                     {
+                                     "id": "18004",
+                                     "name": "Air"
+                                     }, 
+                                     {
+                                     "id": "18999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ },
+ {
+ "id": "119",
+ "name": "Hobbies & Special Interest",
+ "name_localized": "Hobbies & Special Interest",
+ "short_name": "Hobbies",
+ "short_name_localized": "Hobbies",
+                   "subcategories": [
+                                     {
+                                     "id": "19001",
+                                     "name": "Anime/Comics"
+                                     },
+                                     {
+                                     "id": "19002",
+                                     "name": "Gaming"
+                                     },
+                                     {
+                                     "id": "19003",
+                                     "name": "DIY"
+                                     },
+                                     {
+                                     "id": "19004",
+                                     "name": "Photography"
+                                     },
+                                     {
+                                     "id": "19005",
+                                     "name": "Knitting"
+                                     },
+                                     {
+                                     "id": "19006",
+                                     "name": "Books"
+                                     }, 
+                                     {
+                                     "id": "19007",
+                                     "name": "Adult"
+                                     }, 
+                                     {
+                                     "id": "19008",
+                                     "name": "Drawing & Painting"
+                                     }, 
+                                     {
+                                     "id": "19999",
+                                     "name": "Other"
+                                     }
+                                     ]
+ }
+ ]

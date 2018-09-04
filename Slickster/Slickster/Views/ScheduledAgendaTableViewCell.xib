@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="scheduledCell" rowHeight="90" id="72p-Ve-ADm" customClass="ScheduledAgendaTableViewCell" customModule="Slickster" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="72p-Ve-ADm" id="8Fx-CA-SRH">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pZ1-Pz-7wk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="59"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EjU-SO-19E">
+                                <rect key="frame" x="10" y="15" width="30" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="B4X-Qh-V0l"/>
+                                    <constraint firstAttribute="height" constant="30" id="WEM-KU-tjr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Casual Agenda" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keG-GI-NNa">
+                                <rect key="frame" x="48" y="7" width="430" height="27"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="22"/>
+                                <color key="textColor" red="0.61960784310000006" green="0.98823529409999999" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The day plan at New York City" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Np7-Q4-jx6">
+                                <rect key="frame" x="48" y="31" width="430" height="18"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.78262636325503354" green="0.78262636325503354" blue="0.78262636325503354" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TUES 10 Feb" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOL-0x-6He">
+                                <rect key="frame" x="486" y="4" width="110" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="0mU-Pz-cbp"/>
+                                    <constraint firstAttribute="height" constant="50" id="1P0-o2-qFF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <constraints>
+                            <constraint firstItem="EjU-SO-19E" firstAttribute="leading" secondItem="pZ1-Pz-7wk" secondAttribute="leading" constant="10" id="4mU-t8-zjB"/>
+                            <constraint firstItem="Np7-Q4-jx6" firstAttribute="top" secondItem="pZ1-Pz-7wk" secondAttribute="top" constant="31" id="8uS-Bm-wla"/>
+                            <constraint firstItem="EjU-SO-19E" firstAttribute="top" secondItem="pZ1-Pz-7wk" secondAttribute="top" constant="4" id="DvT-YQ-uqD"/>
+                            <constraint firstAttribute="trailing" secondItem="gOL-0x-6He" secondAttribute="trailing" constant="4" id="LCH-oB-uD7"/>
+                            <constraint firstItem="gOL-0x-6He" firstAttribute="leading" secondItem="Np7-Q4-jx6" secondAttribute="trailing" constant="8" id="QEb-wX-zbo"/>
+                            <constraint firstItem="gOL-0x-6He" firstAttribute="leading" secondItem="keG-GI-NNa" secondAttribute="trailing" constant="8" id="Vjw-4j-1wM"/>
+                            <constraint firstItem="keG-GI-NNa" firstAttribute="top" secondItem="pZ1-Pz-7wk" secondAttribute="top" constant="7" id="WDq-Dc-WJZ"/>
+                            <constraint firstItem="keG-GI-NNa" firstAttribute="leading" secondItem="EjU-SO-19E" secondAttribute="trailing" constant="8" id="WMY-XO-kP4"/>
+                            <constraint firstItem="EjU-SO-19E" firstAttribute="centerY" secondItem="pZ1-Pz-7wk" secondAttribute="centerY" id="ZgX-AF-b6L"/>
+                            <constraint firstItem="Np7-Q4-jx6" firstAttribute="leading" secondItem="EjU-SO-19E" secondAttribute="trailing" constant="8" id="hPw-WB-wJC"/>
+                            <constraint firstItem="gOL-0x-6He" firstAttribute="top" secondItem="pZ1-Pz-7wk" secondAttribute="top" constant="4" id="y5k-au-GB9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="DvT-YQ-uqD"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="pZ1-Pz-7wk" firstAttribute="top" secondItem="8Fx-CA-SRH" secondAttribute="top" id="7Ne-i8-Qlc"/>
+                    <constraint firstAttribute="bottom" secondItem="pZ1-Pz-7wk" secondAttribute="bottom" id="HWz-4T-sry"/>
+                    <constraint firstItem="pZ1-Pz-7wk" firstAttribute="leading" secondItem="8Fx-CA-SRH" secondAttribute="leading" id="PUD-zw-STf"/>
+                    <constraint firstAttribute="trailing" secondItem="pZ1-Pz-7wk" secondAttribute="trailing" id="RZ9-5s-J4W"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="agendaTitleLabel" destination="Np7-Q4-jx6" id="YGh-7i-RCU"/>
+                <outlet property="contentView" destination="8Fx-CA-SRH" id="sZt-ge-Ucg"/>
+                <outlet property="dayHeadLabel" destination="EjU-SO-19E" id="NI3-eN-Jhg"/>
+                <outlet property="scheduledDateLabel" destination="gOL-0x-6He" id="FVH-Ap-oFH"/>
+                <outlet property="templateTypeLabel" destination="keG-GI-NNa" id="Fxu-cW-Yen"/>
+            </connections>
+            <point key="canvasLocation" x="137" y="273"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainMenuViewController" customModule="Slickster" customModuleProvider="target">
+            <connections>
+                <outlet property="agendaButton" destination="jG3-80-q1r" id="nWG-2E-c5U"/>
+                <outlet property="calendarButton" destination="OxI-cM-uwU" id="HNt-E8-gji"/>
+                <outlet property="interestsButton" destination="8C5-aO-4Qr" id="lod-4u-jlx"/>
+                <outlet property="logoutButton" destination="p28-8D-M2w" id="q65-O6-eXC"/>
+                <outlet property="myProfileButton" destination="h3S-u9-fvL" id="1Jz-9m-JIi"/>
+                <outlet property="profileImageButton" destination="BXn-wd-jiK" id="uhq-2u-GeI"/>
+                <outlet property="settingsButton" destination="YxQ-dL-cqk" id="D7w-wU-4E5"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="mNu-qh-jZu">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="J7s-xn-O3r">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fk5-Jp-JUt">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXn-wd-jiK">
+                                    <rect key="frame" x="250" y="80" width="100" height="100"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="AlI-om-QH8"/>
+                                        <constraint firstAttribute="height" constant="100" id="z3I-Pd-84E"/>
+                                    </constraints>
+                                    <state key="normal" title="...">
+                                        <color key="titleColor" red="0.56763656500000004" green="0.81442236710000004" blue="0.84318097930000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="activateProfileImage:" destination="-1" eventType="touchUpInside" id="8px-N5-ZIt"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jG3-80-q1r">
+                                    <rect key="frame" x="225" y="265" width="150" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="150" id="BOC-qa-5BQ"/>
+                                        <constraint firstAttribute="height" constant="30" id="F32-F5-g70"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <state key="normal" title="Agendas">
+                                        <color key="titleColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="agendaMenuActivated:" destination="-1" eventType="touchUpInside" id="aff-fb-7JJ"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxI-cM-uwU">
+                                    <rect key="frame" x="225" y="303" width="150" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="150" id="V28-7q-h69"/>
+                                        <constraint firstAttribute="height" constant="30" id="jwZ-al-CGu"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <state key="normal" title="Calendar">
+                                        <color key="titleColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="agendaMenuActivated:" destination="-1" eventType="touchUpInside" id="Ohx-ld-m1j"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8C5-aO-4Qr">
+                                    <rect key="frame" x="225" y="341" width="150" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="EMC-Jk-Ytp"/>
+                                        <constraint firstAttribute="width" constant="150" id="bwZ-lP-Ood"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <state key="normal" title="Interests">
+                                        <color key="titleColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="agendaMenuActivated:" destination="-1" eventType="touchUpInside" id="VJ2-bY-NIA"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3S-u9-fvL">
+                                    <rect key="frame" x="261" y="188" width="79" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="rgt-zz-IKL"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <state key="normal" title="My Profile">
+                                        <color key="titleColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="activateMyProfileButton:" destination="-1" eventType="touchUpInside" id="y89-i2-C9H"/>
+                                    </connections>
+                                </button>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z4m-8F-Bx5">
+                                    <rect key="frame" x="0.0" y="234" width="600" height="1"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.20000000000000001" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="rtM-Op-70e"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YxQ-dL-cqk">
+                                    <rect key="frame" x="225" y="379" width="150" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="150" id="oe4-1Y-BFE"/>
+                                        <constraint firstAttribute="height" constant="30" id="vIa-Oc-rNG"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <state key="normal" title="My Profile">
+                                        <color key="titleColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="agendaMenuActivated:" destination="-1" eventType="touchUpInside" id="f18-Yg-hRw"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p28-8D-M2w">
+                                    <rect key="frame" x="225" y="429" width="150" height="151"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="150" id="2Dw-aA-hnF"/>
+                                        <constraint firstAttribute="height" constant="30" id="Otd-1P-bhl"/>
+                                        <constraint firstAttribute="height" constant="30" id="amM-VN-38x"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                    <state key="normal" title="Logout">
+                                        <color key="titleColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="Otd-1P-bhl"/>
+                                            <exclude reference="amM-VN-38x"/>
+                                        </mask>
+                                    </variation>
+                                    <connections>
+                                        <action selector="logout:" destination="-1" eventType="touchUpInside" id="CS9-3S-eTT"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="z4m-8F-Bx5" firstAttribute="leading" secondItem="fk5-Jp-JUt" secondAttribute="leading" id="0KK-ei-enb"/>
+                                <constraint firstItem="z4m-8F-Bx5" firstAttribute="top" secondItem="h3S-u9-fvL" secondAttribute="bottom" constant="16" id="6UI-nR-mTQ"/>
+                                <constraint firstItem="OxI-cM-uwU" firstAttribute="centerX" secondItem="fk5-Jp-JUt" secondAttribute="centerX" id="Asy-mK-rdz"/>
+                                <constraint firstItem="OxI-cM-uwU" firstAttribute="top" secondItem="jG3-80-q1r" secondAttribute="bottom" constant="8" id="D07-Rn-n4f"/>
+                                <constraint firstItem="p28-8D-M2w" firstAttribute="centerX" secondItem="fk5-Jp-JUt" secondAttribute="centerX" id="MjY-WI-kdm"/>
+                                <constraint firstItem="jG3-80-q1r" firstAttribute="leading" secondItem="fk5-Jp-JUt" secondAttribute="leading" constant="250" id="O9E-dq-klx"/>
+                                <constraint firstAttribute="bottom" secondItem="p28-8D-M2w" secondAttribute="bottom" constant="20" id="Qdf-t4-eDF"/>
+                                <constraint firstAttribute="trailing" secondItem="z4m-8F-Bx5" secondAttribute="trailing" id="SMJ-3z-E80"/>
+                                <constraint firstItem="8C5-aO-4Qr" firstAttribute="top" secondItem="OxI-cM-uwU" secondAttribute="bottom" constant="8" id="VFh-VS-X0q"/>
+                                <constraint firstItem="jG3-80-q1r" firstAttribute="top" secondItem="h3S-u9-fvL" secondAttribute="bottom" constant="50" id="Vd0-5s-Ddw"/>
+                                <constraint firstItem="jG3-80-q1r" firstAttribute="top" secondItem="z4m-8F-Bx5" secondAttribute="bottom" constant="30" id="bHL-NI-9uu"/>
+                                <constraint firstItem="p28-8D-M2w" firstAttribute="top" secondItem="YxQ-dL-cqk" secondAttribute="bottom" constant="20" id="ev4-e4-xX3"/>
+                                <constraint firstItem="YxQ-dL-cqk" firstAttribute="top" secondItem="8C5-aO-4Qr" secondAttribute="bottom" constant="8" id="gyf-QR-Ffn"/>
+                                <constraint firstItem="8C5-aO-4Qr" firstAttribute="centerX" secondItem="fk5-Jp-JUt" secondAttribute="centerX" id="hox-zr-RYN"/>
+                                <constraint firstItem="h3S-u9-fvL" firstAttribute="centerX" secondItem="fk5-Jp-JUt" secondAttribute="centerX" id="lWZ-aO-WlT"/>
+                                <constraint firstItem="YxQ-dL-cqk" firstAttribute="top" secondItem="8C5-aO-4Qr" secondAttribute="bottom" constant="8" id="lhg-Dj-Jen"/>
+                                <constraint firstAttribute="bottom" secondItem="p28-8D-M2w" secondAttribute="bottom" constant="50" id="n4f-5b-YQd"/>
+                                <constraint firstItem="h3S-u9-fvL" firstAttribute="top" secondItem="BXn-wd-jiK" secondAttribute="bottom" constant="8" id="qnQ-Zw-wUT"/>
+                                <constraint firstItem="BXn-wd-jiK" firstAttribute="top" secondItem="fk5-Jp-JUt" secondAttribute="top" constant="80" id="sxV-Rw-a40"/>
+                                <constraint firstItem="YxQ-dL-cqk" firstAttribute="centerX" secondItem="fk5-Jp-JUt" secondAttribute="centerX" id="tc7-8t-48b"/>
+                                <constraint firstItem="BXn-wd-jiK" firstAttribute="centerX" secondItem="fk5-Jp-JUt" secondAttribute="centerX" id="vpM-RI-6R0"/>
+                                <constraint firstItem="jG3-80-q1r" firstAttribute="centerX" secondItem="fk5-Jp-JUt" secondAttribute="centerX" id="xd0-1a-IOr"/>
+                            </constraints>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="O9E-dq-klx"/>
+                                    <exclude reference="Vd0-5s-Ddw"/>
+                                    <exclude reference="lhg-Dj-Jen"/>
+                                    <exclude reference="n4f-5b-YQd"/>
+                                </mask>
+                            </variation>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="fk5-Jp-JUt" secondAttribute="bottom" id="39A-jL-fGb"/>
+                        <constraint firstItem="fk5-Jp-JUt" firstAttribute="width" secondItem="J7s-xn-O3r" secondAttribute="width" id="IXb-IR-2Yo"/>
+                        <constraint firstItem="fk5-Jp-JUt" firstAttribute="top" secondItem="J7s-xn-O3r" secondAttribute="top" id="LDa-wX-kya"/>
+                        <constraint firstAttribute="trailing" secondItem="fk5-Jp-JUt" secondAttribute="trailing" id="XUI-NY-seQ"/>
+                        <constraint firstItem="fk5-Jp-JUt" firstAttribute="centerX" secondItem="J7s-xn-O3r" secondAttribute="centerX" id="YPL-JV-mne"/>
+                        <constraint firstItem="fk5-Jp-JUt" firstAttribute="leading" secondItem="J7s-xn-O3r" secondAttribute="leading" id="gs6-Gm-jja"/>
+                        <constraint firstItem="fk5-Jp-JUt" firstAttribute="centerY" secondItem="J7s-xn-O3r" secondAttribute="centerY" id="mGU-cx-t6Z"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="mNu-qh-jZu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="ATm-fs-uuJ"/>
+                <constraint firstAttribute="trailing" secondItem="mNu-qh-jZu" secondAttribute="trailing" id="B5S-hm-EQ5"/>
+                <constraint firstAttribute="bottom" secondItem="mNu-qh-jZu" secondAttribute="bottom" id="BxF-O8-hJI"/>
+                <constraint firstAttribute="bottom" secondItem="J7s-xn-O3r" secondAttribute="bottom" id="E3R-hK-ZAK"/>
+                <constraint firstItem="J7s-xn-O3r" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Wg7-Iz-LW1"/>
+                <constraint firstAttribute="trailing" secondItem="J7s-xn-O3r" secondAttribute="trailing" id="fUu-fr-K7C"/>
+                <constraint firstItem="J7s-xn-O3r" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uoi-fb-xKX"/>
+                <constraint firstItem="mNu-qh-jZu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wtq-jj-BDo"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="menu-bg.png" width="768" height="1537"/>
+    </resources>
+</document>

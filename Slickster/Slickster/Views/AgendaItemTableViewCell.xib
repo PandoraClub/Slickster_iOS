@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="agendaCell" rowHeight="120" id="nq0-BE-SXE" customClass="AgendaItemTableViewCell" customModule="Slickster" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nq0-BE-SXE" id="TnZ-CE-7bB">
+                <rect key="frame" x="0.0" y="0.0" width="600" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KBi-BZ-YQM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="119"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="etZ-jH-Vlf" customClass="SwipeView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="119"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HZF-jE-G5g">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="119"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="agenda-edit-bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="tJ3-4A-RIc">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="119"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.98544987419999996" green="0.98544987419999996" blue="0.98544987419999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="tJ3-4A-RIc" secondAttribute="trailing" id="89Z-di-zJb"/>
+                                    <constraint firstItem="tJ3-4A-RIc" firstAttribute="top" secondItem="HZF-jE-G5g" secondAttribute="top" id="CNH-rW-Akc"/>
+                                    <constraint firstItem="tJ3-4A-RIc" firstAttribute="leading" secondItem="HZF-jE-G5g" secondAttribute="leading" id="Dw6-Uv-3i3"/>
+                                    <constraint firstAttribute="bottom" secondItem="tJ3-4A-RIc" secondAttribute="bottom" id="pWN-e4-BIr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="etZ-jH-Vlf" firstAttribute="top" secondItem="KBi-BZ-YQM" secondAttribute="top" id="9gi-xq-Qb3"/>
+                            <constraint firstItem="HZF-jE-G5g" firstAttribute="top" secondItem="KBi-BZ-YQM" secondAttribute="top" id="CHe-Sg-Add"/>
+                            <constraint firstItem="etZ-jH-Vlf" firstAttribute="leading" secondItem="KBi-BZ-YQM" secondAttribute="leading" id="H2r-MT-CsX"/>
+                            <constraint firstAttribute="trailing" secondItem="etZ-jH-Vlf" secondAttribute="trailing" id="P7x-BQ-9dC"/>
+                            <constraint firstAttribute="trailing" secondItem="HZF-jE-G5g" secondAttribute="trailing" id="X1S-Ii-j01"/>
+                            <constraint firstAttribute="bottom" secondItem="etZ-jH-Vlf" secondAttribute="bottom" id="dZO-aX-FSC"/>
+                            <constraint firstItem="HZF-jE-G5g" firstAttribute="leading" secondItem="KBi-BZ-YQM" secondAttribute="leading" id="pDf-0b-enM"/>
+                            <constraint firstAttribute="bottom" secondItem="HZF-jE-G5g" secondAttribute="bottom" id="qIA-lG-UCu"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="KBi-BZ-YQM" firstAttribute="leading" secondItem="TnZ-CE-7bB" secondAttribute="leading" id="9Nd-b4-mF3"/>
+                    <constraint firstAttribute="bottom" secondItem="KBi-BZ-YQM" secondAttribute="bottom" id="OLl-mb-vCI"/>
+                    <constraint firstAttribute="trailing" secondItem="KBi-BZ-YQM" secondAttribute="trailing" id="j2d-AW-lYA"/>
+                    <constraint firstItem="KBi-BZ-YQM" firstAttribute="top" secondItem="TnZ-CE-7bB" secondAttribute="top" id="qbG-aW-Io2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="editorView" destination="HZF-jE-G5g" id="pEq-gj-GQG"/>
+                <outlet property="editorViewTopConstraint" destination="CHe-Sg-Add" id="pyp-Iz-X0U"/>
+                <outlet property="swipeView" destination="etZ-jH-Vlf" id="Deu-Ro-6ax"/>
+                <outlet property="swipeViewBottomConstraint" destination="dZO-aX-FSC" id="Wpm-kX-YnY"/>
+            </connections>
+            <point key="canvasLocation" x="323" y="283"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="agenda-edit-bg.png" width="640" height="188"/>
+    </resources>
+</document>

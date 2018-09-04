@@ -1,0 +1,863 @@
+[
+  {
+  "name": "Concerts & Tour Dates",
+  "event_count": null,
+  "id": "music",
+  "parent": null,
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Blues",
+  "event_count": null,
+  "id": "music_blues",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Classical",
+  "event_count": null,
+  "id": "music_classical",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Country",
+  "event_count": null,
+  "id": "music_country",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Dance",
+  "event_count": null,
+  "id": "music_dance",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Easy Listening",
+  "event_count": null,
+  "id": "music_easy_listening",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Electronic",
+  "event_count": null,
+  "id": "music_electronic",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Folk",
+  "event_count": null,
+  "id": "music_folk",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Jazz",
+  "event_count": null,
+  "id": "music_jazz",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Latin",
+  "event_count": null,
+  "id": "music_latin",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: New Age",
+  "event_count": null,
+  "id": "music_newage",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Opera",
+  "event_count": null,
+  "id": "music_opera",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: R&B/Soul",
+  "event_count": null,
+  "id": "music_rb",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Reggae",
+  "event_count": null,
+  "id": "music_reggae",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Vocal",
+  "event_count": null,
+  "id": "music_vocal",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Hip Hop/Rap",
+  "event_count": null,
+  "id": "music_rap_hiphop",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Heavy Metal",
+  "event_count": null,
+  "id": "music_metal",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Inspirational",
+  "event_count": null,
+  "id": "music_religious",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Rock",
+  "event_count": null,
+  "id": "music_rock",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Pop",
+  "event_count": null,
+  "id": "music_pop",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: World",
+  "event_count": null,
+  "id": "music_world",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Alternative",
+  "event_count": null,
+  "id": "music_alternative",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Concerts & Tour Dates: Children's",
+  "event_count": null,
+  "id": "music_childrens",
+  "parent": "music",
+  "visible": true
+  },
+  {
+  "name": "Conferences & Tradeshows",
+  "event_count": null,
+  "id": "conference",
+  "parent": null,
+  "visible": true
+  },
+  {
+  "name": "Conferences & Tradeshows: Career",
+  "event_count": null,
+  "id": "conference_career",
+  "parent": "conference",
+  "visible": true
+  },
+  {
+  "name": "Conferences & Tradeshows: Convention",
+  "event_count": null,
+  "id": "conference_convention",
+  "parent": "conference",
+  "visible": true
+  },
+  {
+  "name": "Conferences & Tradeshows: Seminar",
+  "event_count": null,
+  "id": "conference_seminar",
+  "parent": "conference",
+  "visible": true
+  },
+  {
+  "name": "Conferences & Tradeshows: Talks/Lectures",
+  "event_count": null,
+  "id": "conference_talkslectures",
+  "parent": "conference",
+  "visible": true
+  },
+  {
+  "name": "Comedy",
+  "event_count": null,
+  "id": "comedy",
+  "parent": null,
+  "visible": true
+  },
+  {
+  "name": "Education",
+  "event_count": null,
+  "id": "learning_education",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Education: Class/Workshop",
+  "event_count": null,
+  "id": "learning_education_classworkshop",
+  "parent": "learning_education",
+  "visible": false
+  },
+  {
+  "name": "Kids & Family",
+  "event_count": null,
+  "id": "family_fun_kids",
+  "parent": null,
+  "visible": true
+  },
+  {
+  "name": "Festivals",
+  "event_count": null,
+  "id": "festivals_parades",
+  "parent": null,
+  "visible": true
+  },
+  {
+  "name": "Festivals: Circus",
+  "event_count": null,
+  "id": "festivals_parades_circus",
+  "parent": "festivals_parades",
+  "visible": true
+  },
+  {
+  "name": "Festivals: Festival",
+  "event_count": null,
+  "id": "festivals_parades_festival",
+  "parent": "festivals_parades",
+  "visible": true
+  },
+  {
+  "name": "Festivals: Fairs",
+  "event_count": null,
+  "id": "festivals_parades_fairs",
+  "parent": "festivals_parades",
+  "visible": true
+  },
+  {
+  "name": "Festivals: Parade",
+  "event_count": null,
+  "id": "festivals_parades_parade",
+  "parent": "festivals_parades",
+  "visible": true
+  },
+  {
+  "name": "Film",
+  "event_count": null,
+  "id": "movies_film",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Film: Film Festival",
+  "event_count": null,
+  "id": "movies_film_filmfestival",
+  "parent": "movies_film",
+  "visible": false
+  },
+  {
+  "name": "Food & Wine",
+  "event_count": null,
+  "id": "food",
+  "parent": null,
+  "visible": true
+  },
+  {
+  "name": "Food & Wine: Beer",
+  "event_count": null,
+  "id": "food_beer",
+  "parent": "food",
+  "visible": true
+  },
+  {
+  "name": "Food & Wine: Wine",
+  "event_count": null,
+  "id": "food_wine",
+  "parent": "food",
+  "visible": true
+  },
+  {
+  "name": "Food & Wine: Farmer’s Market",
+  "event_count": null,
+  "id": "food_farmersmarket",
+  "parent": "food",
+  "visible": true
+  },
+  {
+  "name": "Food & Wine: Tastings",
+  "event_count": null,
+  "id": "food_tastings",
+  "parent": "food",
+  "visible": true
+  },
+  {
+  "name": "Fundraising & Charity",
+  "event_count": null,
+  "id": "fundraisers",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Fundraising & Charity: Blood Drive",
+  "event_count": null,
+  "id": "fundraisers_blooddrive",
+  "parent": "fundraisers",
+  "visible": false
+  },
+  {
+  "name": "Fundraising & Charity: Volunteer",
+  "event_count": null,
+  "id": "fundraisers_volunteer",
+  "parent": "fundraisers",
+  "visible": false
+  },
+  {
+  "name": "Art Galleries & Exhibits",
+  "event_count": null,
+  "id": "art",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Art Galleries & Exhibits: Antiques",
+  "event_count": null,
+  "id": "art_antiques",
+  "parent": "art",
+  "visible": false
+  },
+  {
+  "name": "Art Galleries & Exhibits: Painting",
+  "event_count": null,
+  "id": "art_painting",
+  "parent": "art",
+  "visible": false
+  },
+  {
+  "name": "Art Galleries & Exhibits: Photography",
+  "event_count": null,
+  "id": "art_photography",
+  "parent": "art",
+  "visible": false
+  },
+  {
+  "name": "Art Galleries & Exhibits: Art Exhibits",
+  "event_count": null,
+  "id": "art_artexhibits",
+  "parent": "art",
+  "visible": false
+  },
+  {
+  "name": "Art Galleries & Exhibits: Arts and Crafts",
+  "event_count": null,
+  "id": "art_artsandcrafts",
+  "parent": "art",
+  "visible": false
+  },
+  {
+  "name": "Art Galleries & Exhibits: Fashion",
+  "event_count": null,
+  "id": "art_fashion",
+  "parent": "art",
+  "visible": false
+  },
+  {
+  "name": "Health & Wellness",
+  "event_count": null,
+  "id": "support",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Health & Wellness: Fitness",
+  "event_count": null,
+  "id": "support_fitness",
+  "parent": "support",
+  "visible": false
+  },
+  {
+  "name": "Health & Wellness: Senior Health",
+  "event_count": null,
+  "id": "support_seniorhealth",
+  "parent": "support",
+  "visible": false
+  },
+  {
+  "name": "Health & Wellness: Support",
+  "event_count": null,
+  "id": "support_support",
+  "parent": "support",
+  "visible": false
+  },
+  {
+  "name": "Health & Wellness: Yoga",
+  "event_count": null,
+  "id": "support_yoga",
+  "parent": "support",
+  "visible": false
+  },
+  {
+  "name": "Holiday",
+  "event_count": null,
+  "id": "holiday",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Literary & Books",
+  "event_count": null,
+  "id": "books",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Literary & Books: Poetry",
+  "event_count": null,
+  "id": "books_poetry",
+  "parent": "books_poetry",
+  "visible": false
+  },
+  {
+  "name": "Museums & Attractions",
+  "event_count": null,
+  "id": "attractions",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Neighborhood",
+  "event_count": null,
+  "id": "community",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Neighborhood: Library",
+  "event_count": null,
+  "id": "community_library",
+  "parent": "community",
+  "visible": false
+  },
+  {
+  "name": "Neighborhood: Holiday",
+  "event_count": null,
+  "id": "community_holiday",
+  "parent": "community",
+  "visible": false
+  },
+  {
+  "name": "Neighborhood: Seasonal",
+  "event_count": null,
+  "id": "community_seasonal",
+  "parent": "community",
+  "visible": false
+  },
+  {
+  "name": "Business & Networking",
+  "event_count": null,
+  "id": "business",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Nightlife & Singles",
+  "event_count": null,
+  "id": "singles_social",
+  "parent": null,
+  "visible": true
+  },
+  {
+  "name": "Nightlife & Singles: Trivia Night",
+  "event_count": null,
+  "id": "singles_social_trivianight",
+  "parent": "singles_social",
+  "visible": true
+  },
+  {
+  "name": "Nightlife & Singles: Comedy",
+  "event_count": null,
+  "id": "singles_social_comedy",
+  "parent": "singles_social",
+  "visible": true
+  },
+  {
+  "name": "Nightlife & Singles: Bars",
+  "event_count": null,
+  "id": "singles_social_bars",
+  "parent": "singles_social",
+  "visible": true
+  },
+  {
+  "name": "Nightlife & Singles: Dating",
+  "event_count": null,
+  "id": "singles_social_dating",
+  "parent": "singles_social",
+  "visible": true
+  },
+  {
+  "name": "Nightlife & Singles: Karaoke",
+  "event_count": null,
+  "id": "singles_social_karaoke",
+  "parent": "singles_social",
+  "visible": true
+  },
+  {
+  "name": "Nightlife & Singles: Open Mic",
+  "event_count": null,
+  "id": "singles_social_openmic",
+  "parent": "singles_social",
+  "visible": true
+  },
+  {
+  "name": "University & Alumni",
+  "event_count": null,
+  "id": "schools_alumni",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Organizations & Meetups",
+  "event_count": null,
+  "id": "clubs_associations",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Outdoors & Recreation",
+  "event_count": null,
+  "id": "outdoors_recreation",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Outdoors & Recreation: Cycling",
+  "event_count": null,
+  "id": "outdoors_recreation_cycling",
+  "parent": "outdoors_recreation",
+  "visible": false
+  },
+  {
+  "name": "Outdoors & Recreation: Hiking",
+  "event_count": null,
+  "id": "outdoors_recreation_hiking",
+  "parent": "outdoors_recreation",
+  "visible": false
+  },
+  {
+  "name": "Outdoors & Recreation: Nature",
+  "event_count": null,
+  "id": "outdoors_recreation_nature",
+  "parent": "outdoors_recreation",
+  "visible": false
+  },
+  {
+  "name": "Outdoors & Recreation: Running",
+  "event_count": null,
+  "id": "outdoors_recreation_running",
+  "parent": "outdoors_recreation",
+  "visible": false
+  },
+  {
+  "name": "Performing Arts",
+  "event_count": null,
+  "id": "performing_arts",
+  "parent": null,
+  "visible": true
+  },
+  {
+  "name": "Performing Arts: Cabaret",
+  "event_count": null,
+  "id": "performing_arts_cabaret",
+  "parent": "performing_arts",
+  "visible": true
+  },
+  {
+  "name": "Performing Arts: Opera",
+  "event_count": null,
+  "id": "performing_arts_opera",
+  "parent": "performing_arts",
+  "visible": true
+  },
+  {
+  "name": "Performing Arts: Dance",
+  "event_count": null,
+  "id": "performing_arts_dance",
+  "parent": "performing_arts",
+  "visible": true
+  },
+  {
+  "name": "Performing Arts: Musical",
+  "event_count": null,
+  "id": "performing_arts_musical",
+  "parent": "performing_arts",
+  "visible": true
+  },
+  {
+  "name": "Performing Arts: Ballet",
+  "event_count": null,
+  "id": "performing_arts_ballet",
+  "parent": "performing_arts",
+  "visible": true
+  },
+  {
+  "name": "Performing Arts: Comedy",
+  "event_count": null,
+  "id": "performing_arts_comedy",
+  "parent": "performing_arts",
+  "visible": true
+  },
+  {
+  "name": "Performing Arts: Theatre",
+  "event_count": null,
+  "id": "performing_arts_theatre",
+  "parent": "performing_arts",
+  "visible": true
+  },
+  {
+  "name": "Pets",
+  "event_count": null,
+  "id": "animals",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Pets: Cats",
+  "event_count": null,
+  "id": "animals_cats",
+  "parent": "animals",
+  "visible": false
+  },
+  {
+  "name": "Pets: Dogs",
+  "event_count": null,
+  "id": "animals_dogs",
+  "parent": "animals",
+  "visible": false
+  },
+  {
+  "name": "Politics & Activism",
+  "event_count": null,
+  "id": "politics_activism",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Sales & Retail",
+  "event_count": null,
+  "id": "sales",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Sales & Retail: Auction",
+  "event_count": null,
+  "id": "sales_auction",
+  "parent": "sales",
+  "visible": false
+  },
+  {
+  "name": "Sales & Retail: Craft Show",
+  "event_count": null,
+  "id": "sales_craftshow",
+  "parent": "sales",
+  "visible": false
+  },
+  {
+  "name": "Sales & Retail: Flea Market",
+  "event_count": null,
+  "id": "sales_fleamarket",
+  "parent": "sales",
+  "visible": false
+  },
+  {
+  "name": "Sales & Retail: Yard Sale",
+  "event_count": null,
+  "id": "sales_yardsale",
+  "parent": "sales",
+  "visible": false
+  },
+  {
+  "name": "Sales & Retail: Retail",
+  "event_count": null,
+  "id": "sales_retail",
+  "parent": "sales",
+  "visible": false
+  },
+  {
+  "name": "Science",
+  "event_count": null,
+  "id": "science",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Religion & Spirituality",
+  "event_count": null,
+  "id": "religion_spirituality",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Sports",
+  "event_count": null,
+  "id": "sports",
+  "parent": null,
+  "visible": true
+  },
+  {
+  "name": "Sports: Auto Racing",
+  "event_count": null,
+  "id": "sports_autoracing",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Dance",
+  "event_count": null,
+  "id": "sports_dance",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Gymnastics",
+  "event_count": null,
+  "id": "sports_gymnastics",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Ice Skating/Skiing",
+  "event_count": null,
+  "id": "sports_iceskatingskiing",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Softball",
+  "event_count": null,
+  "id": "sports_softball",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Swimming/Diving",
+  "event_count": null,
+  "id": "sports_swimmingdiving",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Volleyball",
+  "event_count": null,
+  "id": "sports_volleyball",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Baseball",
+  "event_count": null,
+  "id": "sports_baseball",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Basketball",
+  "event_count": null,
+  "id": "sports_basketball",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Cricket",
+  "event_count": null,
+  "id": "sports_cricket",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Football",
+  "event_count": null,
+  "id": "sports_football",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Golf",
+  "event_count": null,
+  "id": "sports_golf",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Hockey",
+  "event_count": null,
+  "id": "sports_hockey",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Rugby",
+  "event_count": null,
+  "id": "sports_rugby",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Soccer",
+  "event_count": null,
+  "id": "sports_soccer",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Tennis",
+  "event_count": null,
+  "id": "sports_tennis",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Sports: Wrestling",
+  "event_count": null,
+  "id": "sports_wrestling",
+  "parent": "sports",
+  "visible": true
+  },
+  {
+  "name": "Technology",
+  "event_count": null,
+  "id": "technology",
+  "parent": null,
+  "visible": false
+  },
+  {
+  "name": "Technology: Computer",
+  "event_count": null,
+  "id": "technology_computer",
+  "parent": "technology",
+  "visible": false
+  },
+  {
+  "name": "Other & Miscellaneous",
+  "event_count": null,
+  "id": "other",
+  "parent": null,
+  "visible": false
+  }
+]

@@ -1,0 +1,164 @@
+PODS:
+  - AFNetworking (2.6.1):
+    - AFNetworking/NSURLConnection (= 2.6.1)
+    - AFNetworking/NSURLSession (= 2.6.1)
+    - AFNetworking/Reachability (= 2.6.1)
+    - AFNetworking/Security (= 2.6.1)
+    - AFNetworking/Serialization (= 2.6.1)
+    - AFNetworking/UIKit (= 2.6.1)
+  - AFNetworking/NSURLConnection (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.1)
+  - AFNetworking/Security (2.6.1)
+  - AFNetworking/Serialization (2.6.1)
+  - AFNetworking/UIKit (2.6.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - BDBOAuth1Manager (1.6.0):
+    - AFNetworking/NSURLConnection (~> 2.6.0)
+    - AFNetworking/NSURLSession (~> 2.6.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - CSStickyHeaderFlowLayout (0.2.10)
+  - CVCalendar (1.3.1)
+  - DBCamera (2.4.1):
+    - GPUImage (~> 0.1)
+  - DrawerController (1.1.1):
+    - DrawerController/Core (= 1.1.1)
+    - DrawerController/DrawerVisualStates (= 1.1.1)
+  - DrawerController/Core (1.1.1)
+  - DrawerController/DrawerVisualStates (1.1.1):
+    - DrawerController/Core
+  - Fabric (1.6.7)
+  - FBSDKCoreKit (4.17.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.17.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.17.0):
+    - FBSDKCoreKit
+  - FontAwesome.swift (0.6.3)
+  - Google/Core (1.2.1):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - Google/SignIn (1.2.1):
+    - Google/Core
+    - GoogleSignIn (~> 2.0)
+  - GoogleAppUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleAuthUtilities (1.0.1):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleInterchangeUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSignIn (2.4.0):
+    - GoogleAppUtilities (~> 1.0)
+    - GoogleAuthUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.0.3)
+  - GoogleUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0.0)
+  - GPUImage (0.1.7)
+  - Parse (1.13.0):
+    - Bolts/Tasks (~> 1.6)
+  - ParseFacebookUtilsV4 (1.11.1):
+    - Bolts/Tasks (>= 1.6)
+    - FBSDKCoreKit (~> 4.10)
+    - FBSDKLoginKit (~> 4.10)
+    - FBSDKTVOSKit (~> 4.10)
+    - Parse (~> 1.12)
+  - ParseTwitterUtils (1.11.0):
+    - Bolts/Tasks (~> 1.7)
+    - Parse (~> 1.13)
+  - ParseUI (1.2.0):
+    - Bolts/Tasks (~> 1.3)
+    - Parse (~> 1.9)
+  - QBImagePickerController (3.2.0)
+  - SVProgressHUD (1.1.3)
+  - SwiftyJSON (2.3.3)
+  - SwipeView (1.3.2)
+  - TPKeyboardAvoiding (1.2.10)
+
+DEPENDENCIES:
+  - AFNetworking (= 2.6.1)
+  - BDBOAuth1Manager (= 1.6.0)
+  - Bolts (= 1.8.4)
+  - Crashlytics (= 3.7.0)
+  - CSStickyHeaderFlowLayout (= 0.2.10)
+  - CVCalendar (= 1.3.1)
+  - DBCamera (= 2.4.1)
+  - DrawerController (= 1.1.1)
+  - Fabric (= 1.6.7)
+  - FBSDKCoreKit (= 4.17.0)
+  - FBSDKLoginKit (= 4.17.0)
+  - FBSDKShareKit (= 4.17.0)
+  - FontAwesome.swift (= 0.6.3)
+  - Google/SignIn (= 1.2.1)
+  - GoogleAppUtilities (= 1.0.0)
+  - GoogleAuthUtilities (= 1.0.1)
+  - GoogleInterchangeUtilities (= 1.1.0)
+  - GoogleNetworkingUtilities (= 1.0.0)
+  - GoogleSymbolUtilities (= 1.0.3)
+  - GoogleUtilities (= 1.1.0)
+  - Parse (= 1.13.0)
+  - ParseFacebookUtilsV4 (= 1.11.1)
+  - ParseTwitterUtils (= 1.11.0)
+  - ParseUI (= 1.2.0)
+  - QBImagePickerController (= 3.2.0)
+  - SVProgressHUD (= 1.1.3)
+  - SwiftyJSON (= 2.3.3)
+  - SwipeView (= 1.3.2)
+  - TPKeyboardAvoiding (= 1.2.10)
+
+SPEC CHECKSUMS:
+  AFNetworking: 8e4e60500beb8bec644cf575beee72990a76d399
+  BDBOAuth1Manager: cd5a5872f355ca38180d52ca2dd844f0b0c84797
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  CSStickyHeaderFlowLayout: 5366582779d8b7c9ba9b9cc729c218cc23888776
+  CVCalendar: 7ed8a9cb7cd62c9fffc05ac92201d82b93e1546a
+  DBCamera: 7a4343a541e1264610f9f33176552b93170a843e
+  DrawerController: ff3a2630c74f0daf7840702a1492b8accbbf3d7e
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FBSDKCoreKit: 30a21d2d7b92984b3d80497113433c00824c35e9
+  FBSDKLoginKit: 42b7129ac0373ca99eaf4cbebf4d07bd42371f59
+  FBSDKShareKit: 9b573d03fbee36cbaf42d5bb1f2bc019e0d72347
+  FontAwesome.swift: b78c54716317ef914521e38b594b616e1d498a11
+  Google: fd33b5fa40fa3aaee5176de49c873a74e3d11dce
+  GoogleAppUtilities: c01c6a5671e9da8b9d690fdaec5959d6c2aac699
+  GoogleAuthUtilities: 049ffd3a297cdffd271451b82fd4e75304f15ef3
+  GoogleInterchangeUtilities: d7f7174176fbcf9710f696f1acebad4dbd98ac03
+  GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
+  GoogleSignIn: 79929b51e6299c69f1197bbd9c7a1367d523ecd8
+  GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
+  GoogleUtilities: 8ed9134debe11719097881711464752900668f10
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  Parse: f51c24d2feb412e4b2d6cc73d37cb24e8d0089bc
+  ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
+  ParseTwitterUtils: 0dde9689565e7012d83f892c64aed2ebe69f2ea9
+  ParseUI: af2eba584799da4a9fbdac0e178662d7438b502e
+  QBImagePickerController: 75b3857b1307a3c01ce486559bc294f802ddec6c
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  SwiftyJSON: 0fd0a115a3c0c09b277d2ab801df154902b942c3
+  SwipeView: bd67cfaf7760c036438446b3ccb28a3b84fce009
+  TPKeyboardAvoiding: 614ebec846ec28b83d548769297fa5fb56468904
+
+PODFILE CHECKSUM: 85a4599afe24fd97b32099517704ef57fd50d77b
+
+COCOAPODS: 1.1.1

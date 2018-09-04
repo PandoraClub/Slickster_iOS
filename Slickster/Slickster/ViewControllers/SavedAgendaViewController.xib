@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="big_noodle_titling_oblique.ttf">
+            <string>BigNoodleTitling-Oblique</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SavedAgendaViewController" customModule="Slickster" customModuleProvider="target">
+            <connections>
+                <outlet property="noAgendaView" destination="hfz-BY-Wb9" id="MuT-pD-EX0"/>
+                <outlet property="openButton" destination="e8Q-wL-GcF" id="hlq-p6-PQD"/>
+                <outlet property="pageControl" destination="NmH-41-6uX" id="jtm-6c-e0R"/>
+                <outlet property="savedAgendasSwipeView" destination="Ew1-v8-ZeA" id="riG-dr-th4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SiL-Oj-S0z">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="80"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhV-dC-pqw">
+                            <rect key="frame" x="15" y="38" width="30" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="0Sh-hb-6Ko"/>
+                                <constraint firstAttribute="height" constant="24" id="teS-Vy-Ih1"/>
+                            </constraints>
+                            <state key="normal" image="back-button.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="backActivated:" destination="-1" eventType="touchUpInside" id="KUd-n6-y32"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saved Agendas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbX-qa-9QH">
+                            <rect key="frame" x="63" y="19" width="473" height="62"/>
+                            <fontDescription key="fontDescription" name="BigNoodleTitling-Oblique" family="BigNoodleTitling" pointSize="30"/>
+                            <color key="textColor" red="0.90676817600000004" green="0.90676817600000004" blue="0.90676817600000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8Q-wL-GcF">
+                            <rect key="frame" x="510" y="38" width="75" height="24"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="75" id="QaK-5C-xp5"/>
+                                <constraint firstAttribute="height" constant="24" id="ZPr-2E-qql"/>
+                            </constraints>
+                            <state key="normal" title="Open">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="openActivated:" destination="-1" eventType="touchUpInside" id="Id5-0u-NEc"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="centerY" secondItem="cbX-qa-9QH" secondAttribute="centerY" constant="-10" id="C5G-9V-cEc"/>
+                        <constraint firstAttribute="trailing" secondItem="cbX-qa-9QH" secondAttribute="trailing" constant="64" id="Dv6-wU-aKT"/>
+                        <constraint firstItem="cbX-qa-9QH" firstAttribute="leading" secondItem="QhV-dC-pqw" secondAttribute="trailing" constant="18" id="Euz-by-Vdn"/>
+                        <constraint firstItem="cbX-qa-9QH" firstAttribute="top" secondItem="SiL-Oj-S0z" secondAttribute="top" constant="19" id="Lw1-Dh-8v0"/>
+                        <constraint firstItem="cbX-qa-9QH" firstAttribute="leading" secondItem="QhV-dC-pqw" secondAttribute="trailing" constant="18" id="ORb-Ml-x7g"/>
+                        <constraint firstItem="QhV-dC-pqw" firstAttribute="leading" secondItem="SiL-Oj-S0z" secondAttribute="leading" constant="15" id="bmt-9X-PEY"/>
+                        <constraint firstAttribute="centerY" secondItem="QhV-dC-pqw" secondAttribute="centerY" constant="-10" id="nQY-Xt-tQq"/>
+                        <constraint firstAttribute="height" constant="80" id="nQZ-pF-1iM"/>
+                        <constraint firstItem="e8Q-wL-GcF" firstAttribute="top" secondItem="SiL-Oj-S0z" secondAttribute="top" constant="38" id="q7N-GA-rQr"/>
+                        <constraint firstAttribute="trailing" secondItem="e8Q-wL-GcF" secondAttribute="trailing" constant="15" id="suY-nR-sb8"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ew1-v8-ZeA" customClass="SwipeView">
+                    <rect key="frame" x="0.0" y="80" width="600" height="520"/>
+                    <color key="backgroundColor" red="0.11403279450000001" green="0.11597479419999999" blue="0.1244494547" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfz-BY-Wb9">
+                    <rect key="frame" x="0.0" y="80" width="600" height="520"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No saved agenda" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0J-to-MQd">
+                            <rect key="frame" x="241" y="251" width="119" height="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1215686275" green="0.12941176469999999" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="s0J-to-MQd" firstAttribute="centerY" secondItem="hfz-BY-Wb9" secondAttribute="centerY" id="6hg-qy-dEe"/>
+                        <constraint firstItem="s0J-to-MQd" firstAttribute="centerX" secondItem="hfz-BY-Wb9" secondAttribute="centerX" id="6kn-I0-oQl"/>
+                    </constraints>
+                </view>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="NmH-41-6uX">
+                    <rect key="frame" x="280" y="555" width="39" height="37"/>
+                    <connections>
+                        <action selector="pageControlChanged:" destination="-1" eventType="valueChanged" id="o73-p3-yb0"/>
+                    </connections>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hfz-BY-Wb9" secondAttribute="bottom" id="0qN-RS-Uzq"/>
+                <constraint firstItem="Ew1-v8-ZeA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3tl-jK-pMt"/>
+                <constraint firstAttribute="bottom" secondItem="NmH-41-6uX" secondAttribute="bottom" constant="8" id="79w-WC-AKc"/>
+                <constraint firstAttribute="bottom" secondItem="Ew1-v8-ZeA" secondAttribute="bottom" id="9Rm-R6-PtB"/>
+                <constraint firstItem="SiL-Oj-S0z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ITg-Z3-lOY"/>
+                <constraint firstItem="Ew1-v8-ZeA" firstAttribute="top" secondItem="SiL-Oj-S0z" secondAttribute="bottom" id="Ljl-2D-5s9"/>
+                <constraint firstAttribute="trailing" secondItem="SiL-Oj-S0z" secondAttribute="trailing" id="MGw-hw-Ra9"/>
+                <constraint firstAttribute="trailing" secondItem="hfz-BY-Wb9" secondAttribute="trailing" id="U5B-Vq-BQe"/>
+                <constraint firstItem="NmH-41-6uX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="VGi-qV-3vt"/>
+                <constraint firstItem="SiL-Oj-S0z" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="iq1-gH-Bhq"/>
+                <constraint firstAttribute="trailing" secondItem="Ew1-v8-ZeA" secondAttribute="trailing" id="kac-JQ-PdN"/>
+                <constraint firstItem="hfz-BY-Wb9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sAR-eh-pyh"/>
+                <constraint firstItem="hfz-BY-Wb9" firstAttribute="top" secondItem="SiL-Oj-S0z" secondAttribute="bottom" id="ux7-ad-a5c"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="back-button.png" width="94" height="60"/>
+    </resources>
+</document>
